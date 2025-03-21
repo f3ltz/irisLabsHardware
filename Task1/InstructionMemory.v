@@ -18,7 +18,7 @@ module InstructionMemory (
         insts[20] = 8'b0; insts[21] = 8'b0; insts[22] = 8'b0; insts[23] = 8'b0;
         insts[24] = 8'b0; insts[25] = 8'b0; insts[26] = 8'b0; insts[27] = 8'b0;
         insts[28] = 8'b0; insts[29] = 8'b0; insts[30] = 8'b0; insts[31] = 8'b0;
-        $readmemb("C:/Users/Asrith S/OneDrive/Desktop/iris Hardware Labs recruitment Assignment I/TEST_INSTRUCTIONS.dat", insts);
+        $readmemb("C:/Users/Asrith S/OneDrive/Desktop/iris Hardware Labs recruitment Assignment I/Task1/TEST_INSTRUCTIONS.dat", insts);
 		
 		
     end
