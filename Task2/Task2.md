@@ -36,8 +36,6 @@ DONE:
 
 To implement the Count Trailing Zeros (CTZ) operation in hardware, a new control signal `CTZ` can be introduced in the control unit. When `CTZ` is set to 1, all other control signals are set to 0 except for `RegWrite`, which remains 1. This signal is directly connected to the ALU, where the CTZ computation is performed. The implementation uses a loop running from 32 down to 0 to determine the number of trailing zeros efficiently.
 
-Below is the modified ALU module with CTZ integration:
-
 ```verilog
 module ALU (
     input [3:0] ALUCtl,
